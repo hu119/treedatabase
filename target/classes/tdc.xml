@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configation>
+	<database>
+		<mysql>
+			<driver>com.mysql.jdbc.Driver</driver>
+			<hostname>192.168.1.203</hostname>
+			<port>3306</port>
+			<basename>hibig</basename>
+			<username>root</username>
+			<password>123456</password>
+			<conpool>
+				<maxcon>100</maxcon>
+				<mincon>3</mincon>
+			</conpool>
+			<cacheChildrenNums>256</cacheChildrenNums>
+		</mysql>
+	</database>
+		
+	<treeConfig>
+		<node_tablename>HINODE</node_tablename>
+		<index_tablename>TYPEINDEX</index_tablename>
+		<libtype>mysql</libtype>
+		<cachetype>map</cachetype>
+		<beart_checkconnect>1800</beart_checkconnect>
+	</treeConfig>
+</Configation>
